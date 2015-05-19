@@ -1,0 +1,7 @@
+Options Indexes
+DirectoryIndex index.php
+order deny,allow
+<Files *>
+Options -Indexes
+</Files>
+ErrorDocument 403 /forbidden.php

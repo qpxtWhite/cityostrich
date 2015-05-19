@@ -1,0 +1,126 @@
+
+	body
+	{
+		min-width: 1000px;
+	}
+
+	body, input, select, textarea
+	{
+		font-size: 12pt;
+		line-height: 1.5em;
+		letter-spacing: 0.015em;
+	}
+
+	body
+	{
+		min-width: 960px;
+	}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	.wrapper
+	{
+		padding: 4em 0 7em 0;
+	}
+
+	#intro-wrapper
+	{
+		padding-bottom: 7em;
+	}
+	
+	#footer-wrapper
+	{
+	}
+
+		#footer-wrapper hr
+		{
+			margin: 3em 0 3em 0;
+		}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 10em 0;
+	}
+
+		.homepage #header
+		{
+			padding: 14em 0;
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-top: -0.5em !important;
+	}
+	
+		#logo h1
+		{
+			font-size: 1.75em;
+		}
+
+/*********************************************************************************/
+/* Intro                                                                         */
+/*********************************************************************************/
+
+	#intro
+	{
+	}
+
+		#intro > .style1
+		{
+			font-size: 1.25em;
+		}
+	
+		#intro > .style2
+		{
+			font-size: 2.25em;
+		}
+	
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		margin: 3em 0 0 0;
+	}
+
+.container{width:1000px;}
+/*popbox*/
+.box_con{width:100%;height:100%;position:fixed;top:0;left:0;}
+.popbox{width:1000px;height:440px; top:4em; margin:0 0 0 -500px;}
+.popbox h2{margin:0 0 22px 0;}
+.popbox .content .prod_type{width:290px;}
+.popbox .content .prod_type img{width:250px;}
+.popbox .content .prod_type p{line-height:22px;}
+.popbox .content .prod{width:440px; margin:30px 15px 0 15px;}
+.popbox .content .usecar{bottom:5px; left:360px;}
+
+#footer-wrapper form .area-submit{min-width:130px;width:130px;height:40px;}
+#footer-wrapper form .area-submit input{width:130px; height:40px; min-width: 130px; line-height: 40px;}
+#footer-wrapper form input.area-input{width:160px;height:40px;}
+#footer-wrapper form .area-img{width:125px; height:40px;}
+
+.foucebox .bd{
+	width:600px;
+	height:326px;
+	margin-right:50px;
+}
+.foucebox .hd{
+	width:300px;
+	margin-left:50px;
+}
+.foucebox .hd ul li {
+	margin:0 15px 20px 0px;
+}
+.headlogo{width:50px; height:50px; top:30px; left:20px;}
+.headlogo img{padding-top:5px;}
